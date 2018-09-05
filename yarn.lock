@@ -654,9 +654,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-wxml-langserver@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/wxml-langserver/-/wxml-langserver-2.0.4.tgz#b9ed1ad435471d86a1e5f53b976a392e8d38f42e"
+wxml-langserver@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/wxml-langserver/-/wxml-langserver-2.0.6.tgz#3a5c972f9fc190cf364c501ac517f377eee6090a"
   dependencies:
     merge "^1.2.0"
     uuid "^3.3.2"

@@ -1,16 +1,12 @@
 import { ExtensionContext, LanguageClient, ServerOptions, workspace, services, TransportKind, LanguageClientOptions } from 'coc.nvim'
-import fs from 'fs'
 
 export async function activate(context: ExtensionContext): Promise<void> {
   let { subscriptions } = context
   const config = workspace.getConfiguration().get('wxml') as any
   const enable = config.enable
   if (enable === false) return
-  const file = context.asAbsolutePath('./node_modules/wxml-langserver/lib/wxmlServerMain.js')
-  if (!fs.existsSync(file)) {
-    let res = await workspace.runTerminalCommand('yarn install --production', context.extensionPath)
-    if (!res.success) return
-  }
+  const file = require.resolve('wxml-langserver')
+  if (!file) return
   const selector = config.filetypes || ['wxml']
 
   let serverOptions: ServerOptions = {
