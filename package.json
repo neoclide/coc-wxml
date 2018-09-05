@@ -1,5 +1,5 @@
 {
-  "name": "wxml",
+  "name": "coc-wxml",
   "version": "1.0.0",
   "description": "wxml extension for coc",
   "main": "lib/index.js",
