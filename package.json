@@ -1,0 +1,80 @@
+{
+  "name": "wxml",
+  "version": "1.0.0",
+  "description": "wxml extension for coc",
+  "main": "lib/index.js",
+  "publisher": "chemzqm",
+  "engines": {
+    "coc": "^0.0.15"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "tsc -p tsconfig.json",
+    "prepare": "yarn clean && yarn build"
+  },
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Wxml",
+      "properties": {
+        "wxml.enable": {
+          "type": "boolean",
+          "default": true
+        },
+        "wxml.trace.server": {
+          "type": "string",
+          "default": "off",
+          "enum": [
+            "off",
+            "messages",
+            "verbose"
+          ]
+        },
+        "wxml.execArgv": {
+          "type": "array",
+          "default": [
+            "--nolazy",
+            "--inspect-brk=6045"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "wxml.filetypes": {
+          "type": "array",
+          "default": [
+            "wxml"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "wxml.complete.completeEvent": {
+          "type": "boolean",
+          "default": false,
+          "description": "Set to true to complete event attributes"
+        },
+        "wxml.complete.useSnippet": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use snippet for attributes completion."
+        }
+      }
+    }
+  },
+  "author": "chemzqm@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@chemzqm/tsconfig": "^0.0.3",
+    "@chemzqm/tslint-config": "^1.0.17",
+    "@types/node": "^10.9.4",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.11.0",
+    "coc.nvim": "^0.0.15",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "wxml-langserver": "^2.0.4"
+  }
+}
