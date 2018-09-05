@@ -4,27 +4,25 @@ Wxml language server extension for [coc.nvim](https://github.com/neoclide/coc.nv
 
 ## Install
 
-Install [nodejs](https://nodejs.org/en/download/) and [yarn](https://yarnpkg.com/en/docs/install).
+In your vim/neovim, run command:
 
-``` sh
-curl -sL install-node.now.sh/lts | sh
-curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 ```
-
-For [vim-plug](https://github.com/junegunn/vim-plug) user. Add:
-
-``` vim
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
-Plug 'neoclide/coc-wxml', {'do': 'yarn install --production'}
+:CocInstall coc-wxml
 ```
-
-to your `.vimrc` or `init.vim`, restart vim and run `:PlugInstall`.
 
 ## Features
 
 * Diagnostic support.
 * `doHover` for tag name and tag attributes.
 * `doComplete` for tag name, attributes and attribute values.
+
+## Configuration options
+
+* `wxml.enable` set to `false` to disable wxml language server.
+* `wxml.trace.server` trace LSP traffic in output channel.
+* `wxml.execArgv` add `execArgv` to `child_process.spawn`
+* `wxml.complete.completeEvent` set to `false` to disable complete of event attributes.
+* `wxml.complete.useSnippet` set to `false` to disable snippet for completion.
 
 ## License
 

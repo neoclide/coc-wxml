@@ -37,15 +37,6 @@
             "type": "string"
           }
         },
-        "wxml.filetypes": {
-          "type": "array",
-          "default": [
-            "wxml"
-          ],
-          "items": {
-            "type": "string"
-          }
-        },
         "wxml.complete.completeEvent": {
           "type": "boolean",
           "default": false,
