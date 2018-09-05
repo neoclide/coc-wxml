@@ -3,14 +3,14 @@ import fs from 'fs'
 
 export async function activate(context: ExtensionContext): Promise<void> {
   let { subscriptions } = context
-  const file = context.asAbsolutePath('./node_modules/wxml-langserver/lib/wxmlServerMain.js')
-  if (!fs.existsSync(file)) {
-    let res = await workspace.runTerminalCommand('yarn install', context.extensionPath)
-    if (!res.success) return
-  }
   const config = workspace.getConfiguration().get('wxml') as any
   const enable = config.enable
   if (enable === false) return
+  const file = context.asAbsolutePath('./node_modules/wxml-langserver/lib/wxmlServerMain.js')
+  if (!fs.existsSync(file)) {
+    let res = await workspace.runTerminalCommand('yarn install --production', context.extensionPath)
+    if (!res.success) return
+  }
   const selector = config.filetypes || ['wxml']
 
   let serverOptions: ServerOptions = {
