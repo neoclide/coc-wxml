@@ -2,7 +2,7 @@ import { ExtensionContext, LanguageClient, ServerOptions, workspace, services, T
 
 export async function activate(context: ExtensionContext): Promise<void> {
   let { subscriptions } = context
-  const config = workspace.getConfiguration().get('wxml') as any
+  const config = workspace.getConfiguration().get('wxml', {}) as any
   const enable = config.enable
   if (enable === false) return
   const file = require.resolve('wxml-langserver')
