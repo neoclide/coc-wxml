@@ -1,6 +1,6 @@
 {
   "name": "coc-wxml",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "wxml extension for coc",
   "main": "lib/index.js",
   "publisher": "chemzqm",
