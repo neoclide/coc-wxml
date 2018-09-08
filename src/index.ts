@@ -3,11 +3,13 @@ import { ExtensionContext, LanguageClient, ServerOptions, workspace, services, T
 export async function activate(context: ExtensionContext): Promise<void> {
   let { subscriptions } = context
   const config = workspace.getConfiguration().get('wxml', {}) as any
-  const enable = config.enable
-  if (enable === false) return
+  if (!config.enable) return
   const file = require.resolve('wxml-langserver')
-  if (!file) return
-  const selector = config.filetypes || ['wxml']
+  if (!file) {
+    workspace.showMessage(`Can't resolve wxml-langserver`, 'error')
+    return
+  }
+  const selector = ['wxml']
 
   let serverOptions: ServerOptions = {
     module: file,
