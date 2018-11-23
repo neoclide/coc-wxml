@@ -1,12 +1,16 @@
 {
   "name": "coc-wxml",
   "version": "1.0.5",
-  "description": "wxml extension for coc",
+  "description": "wxml language server extension for coc.nvim",
   "main": "lib/index.js",
   "publisher": "chemzqm",
   "engines": {
     "coc": "^0.0.15"
   },
+  "keywords": [
+    "coc.nvim",
+    "wxml"
+  ],
   "scripts": {
     "clean": "rimraf lib",
     "build": "tsc -p tsconfig.json",
