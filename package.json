@@ -62,14 +62,19 @@
   "devDependencies": {
     "@chemzqm/tsconfig": "^0.0.3",
     "@chemzqm/tslint-config": "^1.0.17",
-    "@types/node": "^10.9.4",
-    "coc.nvim": "^0.0.15",
+    "@types/node": "^10.12.15",
+    "coc.nvim": "^0.0.39",
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.2.2"
   },
   "dependencies": {
     "tslib": "^1.9.3",
-    "wxml-langserver": "^2.0.6"
+    "merge": "^1.2.1",
+    "uuid": "^3.3.2",
+    "vscode-jsonrpc": "^4.0.0",
+    "vscode-languageserver": "^5.2.1",
+    "vscode-languageserver-protocol": "^3.14.1",
+    "vscode-languageserver-types": "^3.14.0"
   }
 }
