@@ -123,7 +123,7 @@ export function isSubAttrTag(tag: string): boolean {
 }
 
 export const WXML_TAGS = (() => {
-  let componentConfig = fs.readFileSync(path.resolve(__dirname, '../../../components.json'), 'utf8')
+  let componentConfig = fs.readFileSync(path.resolve(__dirname, '../components.json'), 'utf8')
   let componentList: WXMLTagSpecification[] = JSON.parse(componentConfig)
   let TAGS: ITagSet = {}
   for (let item of componentList) {

@@ -1,8 +1,6 @@
 [
   {
-    "desc": [
-      "视图容器。"
-    ],
+    "desc": ["视图容器。"],
     "attrs": [
       {
         "name": "hover-class",
@@ -19,9 +17,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "指定是否阻止本节点的祖先节点出现点击态"
-        ],
+        "desc": ["指定是否阻止本节点的祖先节点出现点击态"],
         "since": "1.5.0",
         "defaultValue": "false"
       },
@@ -30,9 +26,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "按住后多久出现点击态，单位毫秒"
-        ],
+        "desc": ["按住后多久出现点击态，单位毫秒"],
         "defaultValue": "50"
       },
       {
@@ -40,9 +34,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "手指松开后点击态保留时间，单位毫秒"
-        ],
+        "desc": ["手指松开后点击态保留时间，单位毫秒"],
         "defaultValue": "400"
       }
     ],
@@ -65,9 +57,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "允许横向滚动"
-        ],
+        "desc": ["允许横向滚动"],
         "defaultValue": "false"
       },
       {
@@ -75,9 +65,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "允许纵向滚动"
-        ],
+        "desc": ["允许纵向滚动"],
         "defaultValue": "false"
       },
       {
@@ -85,9 +73,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "距顶部/左边多远时（单位px），触发 scrolltoupper 事件"
-        ],
+        "desc": ["距顶部/左边多远时（单位px），触发 scrolltoupper 事件"],
         "defaultValue": "50"
       },
       {
@@ -95,9 +81,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "距底部/右边多远时（单位px），触发 scrolltolower 事件"
-        ],
+        "desc": ["距底部/右边多远时（单位px），触发 scrolltolower 事件"],
         "defaultValue": "50"
       },
       {
@@ -105,18 +89,14 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "设置竖向滚动条位置"
-        ]
+        "desc": ["设置竖向滚动条位置"]
       },
       {
         "name": "scroll-left",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "设置横向滚动条位置"
-        ]
+        "desc": ["设置横向滚动条位置"]
       },
       {
         "name": "scroll-into-view",
@@ -132,9 +112,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "在设置滚动条位置时使用动画过渡"
-        ],
+        "desc": ["在设置滚动条位置时使用动画过渡"],
         "defaultValue": "false"
       },
       {
@@ -155,9 +133,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "滚动到顶部/左边，会触发 scrolltoupper 事件"
-        ]
+        "desc": ["滚动到顶部/左边，会触发 scrolltoupper 事件"]
       },
       {
         "name": "bindscrolltolower",
@@ -167,9 +143,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "滚动到底部/右边，会触发 scrolltolower 事件"
-        ]
+        "desc": ["滚动到底部/右边，会触发 scrolltolower 事件"]
       },
       {
         "name": "bindscroll",
@@ -206,9 +180,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示面板指示点"
-        ],
+        "desc": ["是否显示面板指示点"],
         "defaultValue": "false"
       },
       {
@@ -216,9 +188,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "指示点颜色"
-        ],
+        "desc": ["指示点颜色"],
         "since": "1.1.0",
         "defaultValue": "rgba(0, 0, 0, .3)"
       },
@@ -227,9 +197,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "当前选中的指示点颜色"
-        ],
+        "desc": ["当前选中的指示点颜色"],
         "since": "1.1.0",
         "defaultValue": "#000000"
       },
@@ -238,9 +206,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否自动切换"
-        ],
+        "desc": ["是否自动切换"],
         "defaultValue": "false"
       },
       {
@@ -248,9 +214,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "当前所在滑块的 index"
-        ],
+        "desc": ["当前所在滑块的 index"],
         "defaultValue": "0"
       },
       {
@@ -258,9 +222,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "当前所在滑块的 item-id ，不能与 current 被同时指定"
-        ],
+        "desc": ["当前所在滑块的 item-id ，不能与 current 被同时指定"],
         "since": "1.9.0"
       },
       {
@@ -268,9 +230,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "自动切换时间间隔"
-        ],
+        "desc": ["自动切换时间间隔"],
         "defaultValue": "5000"
       },
       {
@@ -278,9 +238,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "滑动动画时长"
-        ],
+        "desc": ["滑动动画时长"],
         "defaultValue": "500"
       },
       {
@@ -288,9 +246,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否采用衔接滑动"
-        ],
+        "desc": ["是否采用衔接滑动"],
         "defaultValue": "false"
       },
       {
@@ -298,9 +254,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "滑动方向是否为纵向"
-        ],
+        "desc": ["滑动方向是否为纵向"],
         "defaultValue": "false"
       },
       {
@@ -308,9 +262,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "前边距，可用于露出前一项的一小部分，接受 px 和 rpx 值"
-        ],
+        "desc": ["前边距，可用于露出前一项的一小部分，接受 px 和 rpx 值"],
         "since": "1.9.0",
         "defaultValue": "0px"
       },
@@ -319,9 +271,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "后边距，可用于露出后一项的一小部分，接受 px 和 rpx 值"
-        ],
+        "desc": ["后边距，可用于露出后一项的一小部分，接受 px 和 rpx 值"],
         "since": "1.9.0",
         "defaultValue": "0px"
       },
@@ -330,9 +280,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "同时显示的滑块数量"
-        ],
+        "desc": ["同时显示的滑块数量"],
         "since": "1.9.0",
         "defaultValue": "1"
       },
@@ -367,31 +315,23 @@
             "name": "any"
           }
         },
-        "desc": [
-          "动画结束时会触发 animationfinish 事件，event.detail 同上"
-        ],
+        "desc": ["动画结束时会触发 animationfinish 事件，event.detail 同上"],
         "since": "1.9.0"
       }
     ],
-    "notices": [
-      "其中只可放置`<swiper-item/>`组件，否则会导致未定义的行为。"
-    ],
+    "notices": ["其中只可放置`<swiper-item/>`组件，否则会导致未定义的行为。"],
     "name": "swiper",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html"
   },
   {
-    "desc": [
-      "仅可放置在`<swiper/>`组件中，宽高自动设置为100%。"
-    ],
+    "desc": ["仅可放置在`<swiper/>`组件中，宽高自动设置为100%。"],
     "attrs": [
       {
         "name": "item-id",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "该 swiper-item 的标识符"
-        ],
+        "desc": ["该 swiper-item 的标识符"],
         "since": "1.9.0"
       }
     ],
@@ -402,9 +342,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/swiper.html"
   },
   {
-    "desc": [
-      "`movable-view` 的可移动区域"
-    ],
+    "desc": ["`movable-view` 的可移动区域"],
     "attrs": [
       {
         "name": "scale-area",
@@ -418,17 +356,13 @@
         "defaultValue": "false"
       }
     ],
-    "notices": [
-      "movable-area 必须设置width和height属性，不设置默认为10px"
-    ],
+    "notices": ["movable-area 必须设置width和height属性，不设置默认为10px"],
     "name": "movable-area",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/movable-view.html",
     "since": "1.2.0"
   },
   {
-    "desc": [
-      "可移动的视图容器，在页面中可以拖拽滑动"
-    ],
+    "desc": ["可移动的视图容器，在页面中可以拖拽滑动"],
     "attrs": [
       {
         "name": "direction",
@@ -445,9 +379,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "movable-view是否带有惯性"
-        ],
+        "desc": ["movable-view是否带有惯性"],
         "defaultValue": "false"
       },
       {
@@ -455,9 +387,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "超过可移动区域后，movable-view是否还可以移动"
-        ],
+        "desc": ["超过可移动区域后，movable-view是否还可以移动"],
         "defaultValue": "false"
       },
       {
@@ -503,9 +433,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "since": "1.9.90",
         "defaultValue": "false"
       },
@@ -514,9 +442,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否支持双指缩放，默认缩放手势生效区域是在movable-view内"
-        ],
+        "desc": ["是否支持双指缩放，默认缩放手势生效区域是在movable-view内"],
         "since": "1.9.90",
         "defaultValue": "false"
       },
@@ -525,9 +451,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "定义缩放倍数最小值"
-        ],
+        "desc": ["定义缩放倍数最小值"],
         "since": "1.9.90",
         "defaultValue": "0.5"
       },
@@ -536,9 +460,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "定义缩放倍数最大值"
-        ],
+        "desc": ["定义缩放倍数最大值"],
         "since": "1.9.90",
         "defaultValue": "10"
       },
@@ -547,9 +469,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "定义缩放倍数，取值范围为 0.5 - 10"
-        ],
+        "desc": ["定义缩放倍数，取值范围为 0.5 - 10"],
         "since": "1.9.90",
         "defaultValue": "1"
       },
@@ -574,9 +494,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "缩放过程中触发的事件，event.detail = {scale: scale}"
-        ],
+        "desc": ["缩放过程中触发的事件，event.detail = {scale: scale}"],
         "since": "1.9.90"
       },
       {
@@ -656,9 +574,7 @@
     "since": "1.4.0"
   },
   {
-    "desc": [
-      "图标。"
-    ],
+    "desc": ["图标。"],
     "attrs": [
       {
         "name": "type",
@@ -674,9 +590,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "icon的大小，单位px"
-        ],
+        "desc": ["icon的大小，单位px"],
         "defaultValue": "23"
       },
       {
@@ -684,9 +598,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "icon的颜色，同css的color"
-        ]
+        "desc": ["icon的颜色，同css的color"]
       }
     ],
     "demoImages": [
@@ -696,18 +608,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/icon.html"
   },
   {
-    "desc": [
-      "文本。"
-    ],
+    "desc": ["文本。"],
     "attrs": [
       {
         "name": "selectable",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "文本是否可选"
-        ],
+        "desc": ["文本是否可选"],
         "since": "1.1.0",
         "defaultValue": "false"
       },
@@ -730,9 +638,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "显示连续空格"
-        ],
+        "desc": ["显示连续空格"],
         "since": "1.4.0",
         "defaultValue": "false"
       },
@@ -741,9 +647,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否解码"
-        ],
+        "desc": ["是否解码"],
         "since": "1.4.0",
         "defaultValue": "false"
       }
@@ -770,9 +674,7 @@
         "type": {
           "name": "any[] | string"
         },
-        "desc": [
-          "节点列表 / HTML String"
-        ],
+        "desc": ["节点列表 / HTML String"],
         "since": "1.4.0"
       }
     ],
@@ -793,18 +695,14 @@
     "since": "1.4.0"
   },
   {
-    "desc": [
-      "进度条。"
-    ],
+    "desc": ["进度条。"],
     "attrs": [
       {
         "name": "percent",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "百分比0~100"
-        ],
+        "desc": ["百分比0~100"],
         "defaultValue": "无"
       },
       {
@@ -812,9 +710,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "在进度条右侧显示百分比"
-        ],
+        "desc": ["在进度条右侧显示百分比"],
         "defaultValue": "false"
       },
       {
@@ -822,9 +718,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "进度条线的宽度，单位px"
-        ],
+        "desc": ["进度条线的宽度，单位px"],
         "defaultValue": "6"
       },
       {
@@ -832,9 +726,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "进度条颜色 （请使用 activeColor）"
-        ],
+        "desc": ["进度条颜色 （请使用 activeColor）"],
         "defaultValue": "#09BB07"
       },
       {
@@ -842,27 +734,21 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "已选择的进度条的颜色"
-        ]
+        "desc": ["已选择的进度条的颜色"]
       },
       {
         "name": "backgroundColor",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "未选择的进度条的颜色"
-        ]
+        "desc": ["未选择的进度条的颜色"]
       },
       {
         "name": "active",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "进度条从左往右的动画"
-        ],
+        "desc": ["进度条从左往右的动画"],
         "defaultValue": "false"
       },
       {
@@ -870,9 +756,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "backwards: 动画从头播；forwards：动画从上次结束点接着播"
-        ],
+        "desc": ["backwards: 动画从头播；forwards：动画从上次结束点接着播"],
         "since": "1.7.0",
         "defaultValue": "backwards"
       }
@@ -884,9 +768,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/progress.html"
   },
   {
-    "desc": [
-      "按钮。"
-    ],
+    "desc": ["按钮。"],
     "attrs": [
       {
         "enum": [
@@ -906,9 +788,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "按钮的大小"
-        ],
+        "desc": ["按钮的大小"],
         "defaultValue": "default"
       },
       {
@@ -932,9 +812,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "按钮的样式类型"
-        ],
+        "desc": ["按钮的样式类型"],
         "defaultValue": "default"
       },
       {
@@ -947,9 +825,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "按钮是否镂空，背景色透明"
-        ],
+        "desc": ["按钮是否镂空，背景色透明"],
         "defaultValue": "false"
       },
       {
@@ -962,9 +838,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -977,9 +851,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "名称前是否带 loading 图标"
-        ],
+        "desc": ["名称前是否带 loading 图标"],
         "defaultValue": "false"
       },
       {
@@ -1043,9 +915,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "微信开放能力"
-        ],
+        "desc": ["微信开放能力"],
         "since": "1.1.0"
       },
       {
@@ -1059,9 +929,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "打开 APP 时，向 APP 传递的参数"
-        ],
+        "desc": ["打开 APP 时，向 APP 传递的参数"],
         "since": "1.9.5"
       },
       {
@@ -1089,9 +957,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "指定是否阻止本节点的祖先节点出现点击态"
-        ],
+        "desc": ["指定是否阻止本节点的祖先节点出现点击态"],
         "since": "1.5.0",
         "defaultValue": "false"
       },
@@ -1105,9 +971,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "按住后多久出现点击态，单位毫秒"
-        ],
+        "desc": ["按住后多久出现点击态，单位毫秒"],
         "defaultValue": "20"
       },
       {
@@ -1120,9 +984,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "手指松开后点击态保留时间，单位毫秒"
-        ],
+        "desc": ["手指松开后点击态保留时间，单位毫秒"],
         "defaultValue": "70"
       },
       {
@@ -1172,9 +1034,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "会话来源"
-        ],
+        "desc": ["会话来源"],
         "since": "1.4.0"
       },
       {
@@ -1188,9 +1048,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "会话内消息卡片标题"
-        ],
+        "desc": ["会话内消息卡片标题"],
         "since": "1.5.0",
         "defaultValue": "当前标题"
       },
@@ -1205,9 +1063,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "会话内消息卡片点击跳转小程序路径"
-        ],
+        "desc": ["会话内消息卡片点击跳转小程序路径"],
         "since": "1.5.0",
         "defaultValue": "当前分享路径"
       },
@@ -1222,9 +1078,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "会话内消息卡片图片"
-        ],
+        "desc": ["会话内消息卡片图片"],
         "since": "1.5.0",
         "defaultValue": "截图"
       },
@@ -1239,9 +1093,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "显示会话内消息卡片"
-        ],
+        "desc": ["显示会话内消息卡片"],
         "since": "1.5.0",
         "defaultValue": "false"
       },
@@ -1259,9 +1111,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "客服消息回调"
-        ],
+        "desc": ["客服消息回调"],
         "since": "1.5.0"
       },
       {
@@ -1278,9 +1128,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "获取用户手机号回调"
-        ],
+        "desc": ["获取用户手机号回调"],
         "since": "1.2.0"
       },
       {
@@ -1297,9 +1145,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当使用开放能力时，发生错误的回调"
-        ],
+        "desc": ["当使用开放能力时，发生错误的回调"],
         "since": "1.9.5"
       }
     ],
@@ -1315,9 +1161,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/button.html"
   },
   {
-    "desc": [
-      "多项选择器，内部由多个`checkbox`组成。"
-    ],
+    "desc": ["多项选择器，内部由多个`checkbox`组成。"],
     "attrs": [
       {
         "name": "bindchange",
@@ -1336,9 +1180,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/checkbox.html"
   },
   {
-    "desc": [
-      "多选项目。"
-    ],
+    "desc": ["多选项目。"],
     "attrs": [
       {
         "name": "value",
@@ -1354,9 +1196,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -1364,9 +1204,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "当前是否选中，可用来设置默认选中"
-        ],
+        "desc": ["当前是否选中，可用来设置默认选中"],
         "defaultValue": "false"
       },
       {
@@ -1374,9 +1212,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "checkbox的颜色，同css的color"
-        ]
+        "desc": ["checkbox的颜色，同css的color"]
       }
     ],
     "demoImages": [
@@ -1419,9 +1255,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "表单重置时会触发 reset 事件"
-        ]
+        "desc": ["表单重置时会触发 reset 事件"]
       }
     ],
     "demoImages": [
@@ -1431,18 +1265,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/form.html"
   },
   {
-    "desc": [
-      "输入框。"
-    ],
+    "desc": ["输入框。"],
     "attrs": [
       {
         "name": "value",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "输入框的初始内容"
-        ]
+        "desc": ["输入框的初始内容"]
       },
       {
         "enum": [
@@ -1467,9 +1297,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "input 的类型"
-        ],
+        "desc": ["input 的类型"],
         "defaultValue": "text"
       },
       {
@@ -1477,9 +1305,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否是密码类型"
-        ],
+        "desc": ["是否是密码类型"],
         "defaultValue": "false"
       },
       {
@@ -1487,27 +1313,21 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "输入框为空时占位符"
-        ]
+        "desc": ["输入框为空时占位符"]
       },
       {
         "name": "placeholder-style",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "指定 placeholder 的样式"
-        ]
+        "desc": ["指定 placeholder 的样式"]
       },
       {
         "name": "placeholder-class",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "指定 placeholder 的样式类"
-        ],
+        "desc": ["指定 placeholder 的样式类"],
         "defaultValue": "input-placeholder"
       },
       {
@@ -1515,9 +1335,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -1525,9 +1343,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最大输入长度，设置为 -1 的时候不限制最大长度"
-        ],
+        "desc": ["最大输入长度，设置为 -1 的时候不限制最大长度"],
         "defaultValue": "140"
       },
       {
@@ -1545,9 +1361,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "(即将废弃，请直接使用 focus )自动聚焦，拉起键盘"
-        ],
+        "desc": ["(即将废弃，请直接使用 focus )自动聚焦，拉起键盘"],
         "defaultValue": "false"
       },
       {
@@ -1555,9 +1369,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "获取焦点"
-        ],
+        "desc": ["获取焦点"],
         "defaultValue": "false"
       },
       {
@@ -1587,9 +1399,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "设置键盘右下角按钮的文字"
-        ],
+        "desc": ["设置键盘右下角按钮的文字"],
         "since": "1.1.0",
         "defaultValue": "done"
       },
@@ -1598,9 +1408,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "点击键盘右下角按钮时是否保持键盘不收起"
-        ],
+        "desc": ["点击键盘右下角按钮时是否保持键盘不收起"],
         "since": "1.1.0",
         "defaultValue": "false"
       },
@@ -1609,9 +1417,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "指定focus时的光标位置"
-        ],
+        "desc": ["指定focus时的光标位置"],
         "since": "1.5.0"
       },
       {
@@ -1619,9 +1425,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "光标起始位置，自动聚集时有效，需与selection-end搭配使用"
-        ],
+        "desc": ["光标起始位置，自动聚集时有效，需与selection-end搭配使用"],
         "since": "1.9.0",
         "defaultValue": "-1"
       },
@@ -1630,9 +1434,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "光标结束位置，自动聚集时有效，需与selection-start搭配使用"
-        ],
+        "desc": ["光标结束位置，自动聚集时有效，需与selection-start搭配使用"],
         "since": "1.9.0",
         "defaultValue": "-1"
       },
@@ -1641,9 +1443,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "键盘弹起时，是否自动上推页面"
-        ],
+        "desc": ["键盘弹起时，是否自动上推页面"],
         "since": "1.9.90",
         "defaultValue": "true"
       },
@@ -1679,9 +1479,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "输入框失去焦点时触发，event.detail = {value: value}"
-        ]
+        "desc": ["输入框失去焦点时触发，event.detail = {value: value}"]
       },
       {
         "name": "bindconfirm",
@@ -1691,9 +1489,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "点击完成按钮时触发，event.detail = {value: value}"
-        ]
+        "desc": ["点击完成按钮时触发，event.detail = {value: value}"]
       }
     ],
     "tips": [
@@ -1720,9 +1516,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "绑定控件的 id"
-        ]
+        "desc": ["绑定控件的 id"]
       }
     ],
     "demoImages": [
@@ -1746,9 +1540,7 @@
                 "type": {
                   "name": "any[] | ArrayObject"
                 },
-                "desc": [
-                  "mode为 selector 或 multiSelector 时，range 有效"
-                ]
+                "desc": ["mode为 selector 或 multiSelector 时，range 有效"]
               },
               {
                 "name": "range-key",
@@ -1786,9 +1578,7 @@
                 "type": {
                   "name": "boolean"
                 },
-                "desc": [
-                  "是否禁用"
-                ],
+                "desc": ["是否禁用"],
                 "defaultValue": "false"
               },
               {
@@ -1799,9 +1589,7 @@
                     "name": "any"
                   }
                 },
-                "desc": [
-                  "取消选择或点遮罩层收起 picker 时触发"
-                ],
+                "desc": ["取消选择或点遮罩层收起 picker 时触发"],
                 "since": "1.9.90"
               }
             ]
@@ -1868,9 +1656,7 @@
                     "name": "any"
                   }
                 },
-                "desc": [
-                  "取消选择时触发"
-                ],
+                "desc": ["取消选择时触发"],
                 "since": "1.9.90"
               },
               {
@@ -1878,9 +1664,7 @@
                 "type": {
                   "name": "boolean"
                 },
-                "desc": [
-                  "是否禁用"
-                ],
+                "desc": ["是否禁用"],
                 "defaultValue": "false"
               }
             ]
@@ -1893,27 +1677,21 @@
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示选中的时间，格式为\"hh:mm\""
-                ]
+                "desc": ["表示选中的时间，格式为\"hh:mm\""]
               },
               {
                 "name": "start",
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示有效时间范围的开始，字符串格式为\"hh:mm\""
-                ]
+                "desc": ["表示有效时间范围的开始，字符串格式为\"hh:mm\""]
               },
               {
                 "name": "end",
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示有效时间范围的结束，字符串格式为\"hh:mm\""
-                ]
+                "desc": ["表示有效时间范围的结束，字符串格式为\"hh:mm\""]
               },
               {
                 "name": "bindchange",
@@ -1935,9 +1713,7 @@
                     "name": "any"
                   }
                 },
-                "desc": [
-                  "取消选择时触发"
-                ],
+                "desc": ["取消选择时触发"],
                 "since": "1.9.90"
               },
               {
@@ -1945,9 +1721,7 @@
                 "type": {
                   "name": "boolean"
                 },
-                "desc": [
-                  "是否禁用"
-                ],
+                "desc": ["是否禁用"],
                 "defaultValue": "false"
               }
             ]
@@ -1960,9 +1734,7 @@
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示选中的日期，格式为\"YYYY-MM-DD\""
-                ],
+                "desc": ["表示选中的日期，格式为\"YYYY-MM-DD\""],
                 "defaultValue": "0"
               },
               {
@@ -1970,18 +1742,14 @@
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示有效日期范围的开始，字符串格式为\"YYYY-MM-DD\""
-                ]
+                "desc": ["表示有效日期范围的开始，字符串格式为\"YYYY-MM-DD\""]
               },
               {
                 "name": "end",
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "表示有效日期范围的结束，字符串格式为\"YYYY-MM-DD\""
-                ]
+                "desc": ["表示有效日期范围的结束，字符串格式为\"YYYY-MM-DD\""]
               },
               {
                 "enum": [
@@ -2002,9 +1770,7 @@
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "有效值 year,month,day，表示选择器的粒度"
-                ],
+                "desc": ["有效值 year,month,day，表示选择器的粒度"],
                 "defaultValue": "day"
               },
               {
@@ -2027,9 +1793,7 @@
                     "name": "any"
                   }
                 },
-                "desc": [
-                  "取消选择时触发"
-                ],
+                "desc": ["取消选择时触发"],
                 "since": "1.9.90"
               },
               {
@@ -2037,9 +1801,7 @@
                 "type": {
                   "name": "boolean"
                 },
-                "desc": [
-                  "是否禁用"
-                ],
+                "desc": ["是否禁用"],
                 "defaultValue": "false"
               }
             ]
@@ -2052,18 +1814,14 @@
                 "type": {
                   "name": "any[]"
                 },
-                "desc": [
-                  "表示选中的省市区，默认选中每一列的第一个值"
-                ]
+                "desc": ["表示选中的省市区，默认选中每一列的第一个值"]
               },
               {
                 "name": "custom-item",
                 "type": {
                   "name": "string"
                 },
-                "desc": [
-                  "可为每一列的顶部添加一个自定义的项"
-                ],
+                "desc": ["可为每一列的顶部添加一个自定义的项"],
                 "since": "1.5.0"
               },
               {
@@ -2086,9 +1844,7 @@
                     "name": "any"
                   }
                 },
-                "desc": [
-                  "取消选择时触发"
-                ],
+                "desc": ["取消选择时触发"],
                 "since": "1.9.90"
               },
               {
@@ -2096,9 +1852,7 @@
                 "type": {
                   "name": "boolean"
                 },
-                "desc": [
-                  "是否禁用"
-                ],
+                "desc": ["是否禁用"],
                 "defaultValue": "false"
               }
             ]
@@ -2108,9 +1862,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "选择器的类型"
-        ],
+        "desc": ["选择器的类型"],
         "defaultValue": "selector"
       }
     ],
@@ -2121,9 +1873,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/picker.html"
   },
   {
-    "desc": [
-      "嵌入页面的滚动选择器"
-    ],
+    "desc": ["嵌入页面的滚动选择器"],
     "attrs": [
       {
         "name": "value",
@@ -2139,18 +1889,14 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "设置选择器中间选中框的样式"
-        ]
+        "desc": ["设置选择器中间选中框的样式"]
       },
       {
         "name": "indicator-class",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "设置选择器中间选中框的类名"
-        ],
+        "desc": ["设置选择器中间选中框的类名"],
         "since": "1.1.0"
       },
       {
@@ -2158,9 +1904,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "设置蒙层的样式"
-        ],
+        "desc": ["设置蒙层的样式"],
         "since": "1.5.0"
       },
       {
@@ -2168,9 +1912,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "设置蒙层的类名"
-        ],
+        "desc": ["设置蒙层的类名"],
         "since": "1.5.0"
       },
       {
@@ -2186,9 +1928,7 @@
         ]
       }
     ],
-    "notices": [
-      "其中只可放置`<picker-view-column/>`组件，其他节点不会显示。"
-    ],
+    "notices": ["其中只可放置`<picker-view-column/>`组件，其他节点不会显示。"],
     "name": "picker-view",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view.html"
   },
@@ -2206,9 +1946,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/picker-view.html"
   },
   {
-    "desc": [
-      "单项选择器，内部由多个`<radio/>`组成。"
-    ],
+    "desc": ["单项选择器，内部由多个`<radio/>`组成。"],
     "attrs": [
       {
         "name": "bindchange",
@@ -2227,9 +1965,7 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/radio.html"
   },
   {
-    "desc": [
-      "单选项目"
-    ],
+    "desc": ["单选项目"],
     "attrs": [
       {
         "name": "value",
@@ -2245,9 +1981,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "当前是否选中"
-        ],
+        "desc": ["当前是否选中"],
         "defaultValue": "false"
       },
       {
@@ -2255,9 +1989,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -2265,9 +1997,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "radio的颜色，同css的color"
-        ]
+        "desc": ["radio的颜色，同css的color"]
       }
     ],
     "demoImages": [
@@ -2277,18 +2007,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/radio.html"
   },
   {
-    "desc": [
-      "滑动选择器。"
-    ],
+    "desc": ["滑动选择器。"],
     "attrs": [
       {
         "name": "min",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最小值"
-        ],
+        "desc": ["最小值"],
         "defaultValue": "0"
       },
       {
@@ -2296,9 +2022,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最大值"
-        ],
+        "desc": ["最大值"],
         "defaultValue": "100"
       },
       {
@@ -2306,9 +2030,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "步长，取值必须大于 0，并且可被(max - min)整除"
-        ],
+        "desc": ["步长，取值必须大于 0，并且可被(max - min)整除"],
         "defaultValue": "1"
       },
       {
@@ -2316,9 +2038,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -2326,9 +2046,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "当前取值"
-        ],
+        "desc": ["当前取值"],
         "defaultValue": "0"
       },
       {
@@ -2336,9 +2054,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "背景条的颜色（请使用 backgroundColor）"
-        ],
+        "desc": ["背景条的颜色（请使用 backgroundColor）"],
         "defaultValue": "#e9e9e9"
       },
       {
@@ -2346,9 +2062,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "已选择的颜色（请使用 activeColor）"
-        ],
+        "desc": ["已选择的颜色（请使用 activeColor）"],
         "defaultValue": "#1aad19"
       },
       {
@@ -2356,9 +2070,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "已选择的颜色"
-        ],
+        "desc": ["已选择的颜色"],
         "defaultValue": "#1aad19"
       },
       {
@@ -2366,9 +2078,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "背景条的颜色"
-        ],
+        "desc": ["背景条的颜色"],
         "defaultValue": "#e9e9e9"
       },
       {
@@ -2376,9 +2086,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "滑块的大小，取值范围为 12 - 28"
-        ],
+        "desc": ["滑块的大小，取值范围为 12 - 28"],
         "since": "1.9.0",
         "defaultValue": "28"
       },
@@ -2387,9 +2095,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "滑块的颜色"
-        ],
+        "desc": ["滑块的颜色"],
         "since": "1.9.0",
         "defaultValue": "#ffffff"
       },
@@ -2398,9 +2104,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示当前 value"
-        ],
+        "desc": ["是否显示当前 value"],
         "defaultValue": "false"
       },
       {
@@ -2411,9 +2115,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "完成一次拖动后触发的事件，event.detail = {value: value}"
-        ]
+        "desc": ["完成一次拖动后触发的事件，event.detail = {value: value}"]
       },
       {
         "name": "bindchanging",
@@ -2423,9 +2125,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "拖动过程中触发的事件，event.detail = {value: value}"
-        ],
+        "desc": ["拖动过程中触发的事件，event.detail = {value: value}"],
         "since": "1.7.0"
       }
     ],
@@ -2436,18 +2136,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/slider.html"
   },
   {
-    "desc": [
-      "开关选择器。"
-    ],
+    "desc": ["开关选择器。"],
     "attrs": [
       {
         "name": "checked",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否选中"
-        ],
+        "desc": ["是否选中"],
         "defaultValue": "false"
       },
       {
@@ -2455,9 +2151,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "样式，有效值：switch, checkbox"
-        ],
+        "desc": ["样式，有效值：switch, checkbox"],
         "defaultValue": "switch"
       },
       {
@@ -2477,9 +2171,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "switch 的颜色，同 css 的 color"
-        ]
+        "desc": ["switch 的颜色，同 css 的 color"]
       }
     ],
     "tips": [
@@ -2492,45 +2184,35 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/switch.html"
   },
   {
-    "desc": [
-      "多行输入框。"
-    ],
+    "desc": ["多行输入框。"],
     "attrs": [
       {
         "name": "value",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "输入框的内容"
-        ]
+        "desc": ["输入框的内容"]
       },
       {
         "name": "placeholder",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "输入框为空时占位符"
-        ]
+        "desc": ["输入框为空时占位符"]
       },
       {
         "name": "placeholder-style",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "指定 placeholder 的样式"
-        ]
+        "desc": ["指定 placeholder 的样式"]
       },
       {
         "name": "placeholder-class",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "指定 placeholder 的样式类"
-        ],
+        "desc": ["指定 placeholder 的样式类"],
         "defaultValue": "textarea-placeholder"
       },
       {
@@ -2538,9 +2220,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否禁用"
-        ],
+        "desc": ["是否禁用"],
         "defaultValue": "false"
       },
       {
@@ -2548,9 +2228,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最大输入长度，设置为 -1 的时候不限制最大长度"
-        ],
+        "desc": ["最大输入长度，设置为 -1 的时候不限制最大长度"],
         "defaultValue": "140"
       },
       {
@@ -2558,9 +2236,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "自动聚焦，拉起键盘。"
-        ],
+        "desc": ["自动聚焦，拉起键盘。"],
         "defaultValue": "false"
       },
       {
@@ -2568,9 +2244,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "获取焦点"
-        ],
+        "desc": ["获取焦点"],
         "defaultValue": "false"
       },
       {
@@ -2578,9 +2252,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否自动增高，设置auto-height时，style.height不生效"
-        ],
+        "desc": ["是否自动增高，设置auto-height时，style.height不生效"],
         "defaultValue": "false"
       },
       {
@@ -2608,9 +2280,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "指定focus时的光标位置"
-        ],
+        "desc": ["指定focus时的光标位置"],
         "since": "1.5.0"
       },
       {
@@ -2618,9 +2288,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示键盘上方带有”完成“按钮那一栏"
-        ],
+        "desc": ["是否显示键盘上方带有”完成“按钮那一栏"],
         "since": "1.6.0",
         "defaultValue": "true"
       },
@@ -2629,9 +2297,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "光标起始位置，自动聚集时有效，需与selection-end搭配使用"
-        ],
+        "desc": ["光标起始位置，自动聚集时有效，需与selection-end搭配使用"],
         "since": "1.9.0",
         "defaultValue": "-1"
       },
@@ -2640,9 +2306,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "光标结束位置，自动聚集时有效，需与selection-start搭配使用"
-        ],
+        "desc": ["光标结束位置，自动聚集时有效，需与selection-start搭配使用"],
         "since": "1.9.0",
         "defaultValue": "-1"
       },
@@ -2651,9 +2315,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "键盘弹起时，是否自动上推页面"
-        ],
+        "desc": ["键盘弹起时，是否自动上推页面"],
         "since": "1.9.90",
         "defaultValue": "true"
       },
@@ -2677,9 +2339,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "输入框失去焦点时触发，event.detail = {value, cursor}"
-        ]
+        "desc": ["输入框失去焦点时触发，event.detail = {value, cursor}"]
       },
       {
         "name": "bindlinechange",
@@ -2732,18 +2392,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/textarea.html"
   },
   {
-    "desc": [
-      "页面链接。"
-    ],
+    "desc": ["页面链接。"],
     "attrs": [
       {
         "name": "url",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "应用内的跳转链接"
-        ]
+        "desc": ["应用内的跳转链接"]
       },
       {
         "enum": [
@@ -2774,9 +2430,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "跳转方式"
-        ],
+        "desc": ["跳转方式"],
         "defaultValue": "navigate"
       },
       {
@@ -2784,9 +2438,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "当 open-type 为 'navigateBack' 时有效，表示回退的层数"
-        ]
+        "desc": ["当 open-type 为 'navigateBack' 时有效，表示回退的层数"]
       },
       {
         "name": "hover-class",
@@ -2803,9 +2455,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "指定是否阻止本节点的祖先节点出现点击态"
-        ],
+        "desc": ["指定是否阻止本节点的祖先节点出现点击态"],
         "since": "1.5.0",
         "defaultValue": "false"
       },
@@ -2814,9 +2464,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "按住后多久出现点击态，单位毫秒"
-        ],
+        "desc": ["按住后多久出现点击态，单位毫秒"],
         "defaultValue": "50"
       },
       {
@@ -2824,9 +2472,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "手指松开后点击态保留时间，单位毫秒"
-        ],
+        "desc": ["手指松开后点击态保留时间，单位毫秒"],
         "defaultValue": "600"
       }
     ],
@@ -2837,36 +2483,28 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html"
   },
   {
-    "desc": [
-      "音频。"
-    ],
+    "desc": ["音频。"],
     "attrs": [
       {
         "name": "id",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "audio 组件的唯一标识符"
-        ]
+        "desc": ["audio 组件的唯一标识符"]
       },
       {
         "name": "src",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "要播放音频的资源地址"
-        ]
+        "desc": ["要播放音频的资源地址"]
       },
       {
         "name": "loop",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否循环播放"
-        ],
+        "desc": ["是否循环播放"],
         "defaultValue": "false"
       },
       {
@@ -2874,9 +2512,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示默认控件"
-        ],
+        "desc": ["是否显示默认控件"],
         "defaultValue": "false"
       },
       {
@@ -2929,9 +2565,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当开始/继续播放时触发play事件"
-        ]
+        "desc": ["当开始/继续播放时触发play事件"]
       },
       {
         "name": "bindpause",
@@ -2941,9 +2575,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当暂停播放时触发 pause 事件"
-        ]
+        "desc": ["当暂停播放时触发 pause 事件"]
       },
       {
         "name": "bindtimeupdate",
@@ -2965,9 +2597,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当播放到末尾时触发 ended 事件"
-        ]
+        "desc": ["当播放到末尾时触发 ended 事件"]
       }
     ],
     "relateApis": [
@@ -2986,18 +2616,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/audio.html"
   },
   {
-    "desc": [
-      "图片。"
-    ],
+    "desc": ["图片。"],
     "attrs": [
       {
         "name": "src",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "图片资源地址"
-        ]
+        "desc": ["图片资源地址"]
       },
       {
         "enum": [
@@ -3058,9 +2684,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "图片裁剪、缩放的模式"
-        ],
+        "desc": ["图片裁剪、缩放的模式"],
         "defaultValue": "'scaleToFill'"
       },
       {
@@ -3068,9 +2692,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "图片懒加载。只针对page与scroll-view下的image有效"
-        ],
+        "desc": ["图片懒加载。只针对page与scroll-view下的image有效"],
         "since": "1.5.0",
         "defaultValue": "false"
       },
@@ -3099,9 +2721,7 @@
         ]
       }
     ],
-    "notices": [
-      "image组件默认宽度300px、高度225px"
-    ],
+    "notices": ["image组件默认宽度300px、高度225px"],
     "name": "image",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/image.html"
   },
@@ -3115,18 +2735,14 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "要播放视频的资源地址"
-        ]
+        "desc": ["要播放视频的资源地址"]
       },
       {
         "name": "initial-time",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "指定视频初始播放位置"
-        ],
+        "desc": ["指定视频初始播放位置"],
         "since": "1.6.0"
       },
       {
@@ -3134,9 +2750,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "指定视频时长"
-        ],
+        "desc": ["指定视频时长"],
         "since": "1.1.0"
       },
       {
@@ -3144,9 +2758,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示默认播放控件（播放/暂停按钮、播放进度、时间）"
-        ],
+        "desc": ["是否显示默认播放控件（播放/暂停按钮、播放进度、时间）"],
         "defaultValue": "true"
       },
       {
@@ -3154,18 +2766,14 @@
         "type": {
           "name": "ArrayObject"
         },
-        "desc": [
-          "弹幕列表"
-        ]
+        "desc": ["弹幕列表"]
       },
       {
         "name": "danmu-btn",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示弹幕按钮，只在初始化时有效，不能动态变更"
-        ],
+        "desc": ["是否显示弹幕按钮，只在初始化时有效，不能动态变更"],
         "defaultValue": "false"
       },
       {
@@ -3173,9 +2781,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否展示弹幕，只在初始化时有效，不能动态变更"
-        ],
+        "desc": ["是否展示弹幕，只在初始化时有效，不能动态变更"],
         "defaultValue": "false"
       },
       {
@@ -3183,9 +2789,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否自动播放"
-        ],
+        "desc": ["是否自动播放"],
         "defaultValue": "false"
       },
       {
@@ -3193,9 +2797,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否循环播放"
-        ],
+        "desc": ["是否循环播放"],
         "since": "1.4.0",
         "defaultValue": "false"
       },
@@ -3204,9 +2806,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否静音播放"
-        ],
+        "desc": ["是否静音播放"],
         "since": "1.4.0",
         "defaultValue": "false"
       },
@@ -3215,9 +2815,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "在非全屏模式下，是否开启亮度与音量调节手势"
-        ],
+        "desc": ["在非全屏模式下，是否开启亮度与音量调节手势"],
         "since": "1.6.0",
         "defaultValue": "false"
       },
@@ -3236,9 +2834,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "若不设置，宽度大于240时才会显示"
-        ],
+        "desc": ["若不设置，宽度大于240时才会显示"],
         "since": "1.9.0",
         "defaultValue": "true"
       },
@@ -3247,9 +2843,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示全屏按钮"
-        ],
+        "desc": ["是否显示全屏按钮"],
         "since": "1.9.0",
         "defaultValue": "true"
       },
@@ -3258,9 +2852,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示视频底部控制栏的播放按钮"
-        ],
+        "desc": ["是否显示视频底部控制栏的播放按钮"],
         "since": "1.9.0",
         "defaultValue": "true"
       },
@@ -3269,9 +2861,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否显示视频中间的播放按钮"
-        ],
+        "desc": ["是否显示视频中间的播放按钮"],
         "since": "1.9.0",
         "defaultValue": "true"
       },
@@ -3280,9 +2870,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否开启控制进度的手势"
-        ],
+        "desc": ["是否开启控制进度的手势"],
         "since": "1.9.0",
         "defaultValue": "true"
       },
@@ -3313,9 +2901,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当开始/继续播放时触发play事件"
-        ]
+        "desc": ["当开始/继续播放时触发play事件"]
       },
       {
         "name": "bindpause",
@@ -3325,9 +2911,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当暂停播放时触发 pause 事件"
-        ]
+        "desc": ["当暂停播放时触发 pause 事件"]
       },
       {
         "name": "bindended",
@@ -3337,9 +2921,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "当播放到末尾时触发 ended 事件"
-        ]
+        "desc": ["当播放到末尾时触发 ended 事件"]
       },
       {
         "name": "bindtimeupdate",
@@ -3374,9 +2956,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "视频出现缓冲时触发"
-        ],
+        "desc": ["视频出现缓冲时触发"],
         "since": "1.7.0"
       },
       {
@@ -3387,9 +2967,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "视频播放出错时触发"
-        ],
+        "desc": ["视频播放出错时触发"],
         "since": "1.7.0"
       }
     ],
@@ -3411,18 +2989,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/video.html"
   },
   {
-    "desc": [
-      "系统相机。"
-    ],
+    "desc": ["系统相机。"],
     "attrs": [
       {
         "name": "device-position",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "前置或后置，值为front, back"
-        ],
+        "desc": ["前置或后置，值为front, back"],
         "defaultValue": "back"
       },
       {
@@ -3430,9 +3004,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "闪光灯，值为auto, on, off"
-        ],
+        "desc": ["闪光灯，值为auto, on, off"],
         "defaultValue": "auto"
       },
       {
@@ -3443,9 +3015,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "摄像头在非正常终止时触发，如退出后台等情况"
-        ]
+        "desc": ["摄像头在非正常终止时触发，如退出后台等情况"]
       },
       {
         "name": "binderror",
@@ -3455,9 +3025,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "用户不允许使用摄像头时触发"
-        ]
+        "desc": ["用户不允许使用摄像头时触发"]
       }
     ],
     "relateApis": [
@@ -3489,18 +3057,14 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "音视频地址。目前仅支持 flv, rtmp 格式"
-        ]
+        "desc": ["音视频地址。目前仅支持 flv, rtmp 格式"]
       },
       {
         "name": "mode",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "live（直播），RTC（实时通话）"
-        ],
+        "desc": ["live（直播），RTC（实时通话）"],
         "defaultValue": "live"
       },
       {
@@ -3508,9 +3072,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "自动播放"
-        ],
+        "desc": ["自动播放"],
         "defaultValue": "false"
       },
       {
@@ -3518,9 +3080,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否静音"
-        ],
+        "desc": ["是否静音"],
         "defaultValue": "false"
       },
       {
@@ -3528,9 +3088,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "画面方向，可选值有 vertical，horizontal"
-        ],
+        "desc": ["画面方向，可选值有 vertical，horizontal"],
         "defaultValue": "vertical"
       },
       {
@@ -3538,9 +3096,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "填充模式，可选值有 contain，fillCrop"
-        ],
+        "desc": ["填充模式，可选值有 contain，fillCrop"],
         "defaultValue": "contain"
       },
       {
@@ -3548,9 +3104,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "进入后台时是否静音"
-        ],
+        "desc": ["进入后台时是否静音"],
         "defaultValue": "false"
       },
       {
@@ -3558,9 +3112,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最小缓冲区，单位s"
-        ],
+        "desc": ["最小缓冲区，单位s"],
         "defaultValue": "1"
       },
       {
@@ -3568,9 +3120,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最大缓冲区，单位s"
-        ],
+        "desc": ["最大缓冲区，单位s"],
         "defaultValue": "3"
       },
       {
@@ -3594,9 +3144,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "全屏变化事件，detail = {direction, fullScreen}"
-        ]
+        "desc": ["全屏变化事件，detail = {direction, fullScreen}"]
       },
       {
         "name": "bindnetstatus",
@@ -3637,18 +3185,14 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "推流地址。目前仅支持 flv, rtmp 格式"
-        ]
+        "desc": ["推流地址。目前仅支持 flv, rtmp 格式"]
       },
       {
         "name": "mode",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "SD（标清）, HD（高清）, FHD（超清）, RTC（实时通话）"
-        ],
+        "desc": ["SD（标清）, HD（高清）, FHD（超清）, RTC（实时通话）"],
         "defaultValue": "RTC"
       },
       {
@@ -3656,9 +3200,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "自动推流"
-        ],
+        "desc": ["自动推流"],
         "defaultValue": "false"
       },
       {
@@ -3666,9 +3208,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "是否静音"
-        ],
+        "desc": ["是否静音"],
         "defaultValue": "false"
       },
       {
@@ -3676,9 +3216,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "开启摄像头"
-        ],
+        "desc": ["开启摄像头"],
         "defaultValue": "true"
       },
       {
@@ -3686,9 +3224,7 @@
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "自动聚集"
-        ],
+        "desc": ["自动聚集"],
         "defaultValue": "true"
       },
       {
@@ -3696,9 +3232,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "vertical，horizontal"
-        ],
+        "desc": ["vertical，horizontal"],
         "defaultValue": "vertical"
       },
       {
@@ -3706,9 +3240,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "美颜"
-        ],
+        "desc": ["美颜"],
         "defaultValue": "0"
       },
       {
@@ -3716,9 +3248,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "美白"
-        ],
+        "desc": ["美白"],
         "defaultValue": "0"
       },
       {
@@ -3726,9 +3256,7 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "宽高比，可选值有 3:4, 9:16"
-        ],
+        "desc": ["宽高比，可选值有 3:4, 9:16"],
         "defaultValue": "9:16"
       },
       {
@@ -3736,9 +3264,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最小码率"
-        ],
+        "desc": ["最小码率"],
         "defaultValue": "200"
       },
       {
@@ -3746,9 +3272,7 @@
         "type": {
           "name": "number"
         },
-        "desc": [
-          "最大码率"
-        ],
+        "desc": ["最大码率"],
         "defaultValue": "1000"
       },
       {
@@ -3756,27 +3280,21 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "进入后台时推流的等待画面"
-        ]
+        "desc": ["进入后台时推流的等待画面"]
       },
       {
         "name": "waiting-image-md5",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "等待画面资源的MD5值"
-        ]
+        "desc": ["等待画面资源的MD5值"]
       },
       {
         "name": "background-mute",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "进入后台时是否静音"
-        ],
+        "desc": ["进入后台时是否静音"],
         "defaultValue": "false"
       },
       {
@@ -3840,36 +3358,28 @@
     }
   },
   {
-    "desc": [
-      "地图。"
-    ],
+    "desc": ["地图。"],
     "attrs": [
       {
         "name": "longitude",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "中心经度"
-        ]
+        "desc": ["中心经度"]
       },
       {
         "name": "latitude",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "中心纬度"
-        ]
+        "desc": ["中心纬度"]
       },
       {
         "name": "scale",
         "type": {
           "name": "number"
         },
-        "desc": [
-          "缩放级别，取值范围为5-18"
-        ],
+        "desc": ["缩放级别，取值范围为5-18"],
         "defaultValue": "16"
       },
       {
@@ -3882,9 +3392,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "标记点id"
-              ],
+              "desc": ["标记点id"],
               "required": false,
               "notice": "marker点击事件回调会返回此id。**建议为每个marker设置上Number类型id，保证更新marker时有更好的性能。**"
             },
@@ -3893,9 +3401,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "纬度"
-              ],
+              "desc": ["纬度"],
               "required": true,
               "notice": "浮点数，范围 -90 ~ 90"
             },
@@ -3904,9 +3410,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "经度"
-              ],
+              "desc": ["经度"],
               "required": true,
               "notice": "浮点数，范围 -180 ~ 180"
             },
@@ -3915,9 +3419,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "标注点名"
-              ],
+              "desc": ["标注点名"],
               "required": false
             },
             {
@@ -3925,9 +3427,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "显示的图标"
-              ],
+              "desc": ["显示的图标"],
               "required": true,
               "notice": "项目目录下的图片路径，支持相对路径写法，以'/'开头则表示相对小程序根目录；也支持临时路径"
             },
@@ -3936,9 +3436,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "旋转角度"
-              ],
+              "desc": ["旋转角度"],
               "required": false,
               "notice": "顺时针旋转的角度，范围 0 ~ 360，默认为 0"
             },
@@ -3947,9 +3445,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "标注的透明度"
-              ],
+              "desc": ["标注的透明度"],
               "required": false,
               "notice": "默认1，无透明，范围 0 ~ 1"
             },
@@ -3958,9 +3454,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "标注图标宽度"
-              ],
+              "desc": ["标注图标宽度"],
               "required": false,
               "notice": "默认为图片实际宽度"
             },
@@ -3969,9 +3463,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "标注图标高度"
-              ],
+              "desc": ["标注图标高度"],
               "required": false,
               "notice": "默认为图片实际高度"
             },
@@ -3985,9 +3477,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本"
-                    ],
+                    "desc": ["文本"],
                     "since": "1.2.0"
                   },
                   {
@@ -3995,9 +3485,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本颜色"
-                    ],
+                    "desc": ["文本颜色"],
                     "since": "1.2.0"
                   },
                   {
@@ -4005,9 +3493,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "文字大小"
-                    ],
+                    "desc": ["文字大小"],
                     "since": "1.2.0"
                   },
                   {
@@ -4015,9 +3501,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "callout边框圆角"
-                    ],
+                    "desc": ["callout边框圆角"],
                     "since": "1.2.0"
                   },
                   {
@@ -4025,9 +3509,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "背景色"
-                    ],
+                    "desc": ["背景色"],
                     "since": "1.2.0"
                   },
                   {
@@ -4035,9 +3517,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "文本边缘留白"
-                    ],
+                    "desc": ["文本边缘留白"],
                     "since": "1.2.0"
                   },
                   {
@@ -4045,9 +3525,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "'BYCLICK':点击显示; 'ALWAYS':常显"
-                    ],
+                    "desc": ["'BYCLICK':点击显示; 'ALWAYS':常显"],
                     "since": "1.2.0"
                   },
                   {
@@ -4055,16 +3533,12 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本对齐方式。有效值: left, right, center"
-                    ],
+                    "desc": ["文本对齐方式。有效值: left, right, center"],
                     "since": "1.6.0"
                   }
                 ]
               },
-              "desc": [
-                "自定义标记点上方的气泡窗口"
-              ],
+              "desc": ["自定义标记点上方的气泡窗口"],
               "required": false,
               "notice": "支持的属性见下表，可识别换行符。",
               "since": "1.2.0"
@@ -4079,9 +3553,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本"
-                    ],
+                    "desc": ["文本"],
                     "since": "1.2.0"
                   },
                   {
@@ -4089,9 +3561,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本颜色"
-                    ],
+                    "desc": ["文本颜色"],
                     "since": "1.2.0"
                   },
                   {
@@ -4099,9 +3569,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "文字大小"
-                    ],
+                    "desc": ["文字大小"],
                     "since": "1.2.0"
                   },
                   {
@@ -4109,9 +3577,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "label的坐标，原点是 marker 对应的经纬度"
-                    ],
+                    "desc": ["label的坐标，原点是 marker 对应的经纬度"],
                     "since": "1.2.0"
                   },
                   {
@@ -4119,9 +3585,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "label的坐标，原点是 marker 对应的经纬度"
-                    ],
+                    "desc": ["label的坐标，原点是 marker 对应的经纬度"],
                     "since": "1.2.0"
                   },
                   {
@@ -4129,9 +3593,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "边框宽度"
-                    ],
+                    "desc": ["边框宽度"],
                     "since": "1.6.0"
                   },
                   {
@@ -4139,9 +3601,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "边框颜色"
-                    ],
+                    "desc": ["边框颜色"],
                     "since": "1.6.0"
                   },
                   {
@@ -4149,9 +3609,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "边框圆角"
-                    ],
+                    "desc": ["边框圆角"],
                     "since": "1.6.0"
                   },
                   {
@@ -4159,9 +3617,7 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "背景色"
-                    ],
+                    "desc": ["背景色"],
                     "since": "1.6.0"
                   },
                   {
@@ -4169,9 +3625,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "文本边缘留白"
-                    ],
+                    "desc": ["文本边缘留白"],
                     "since": "1.6.0"
                   },
                   {
@@ -4179,16 +3633,12 @@
                     "type": {
                       "name": "string"
                     },
-                    "desc": [
-                      "文本对齐方式。有效值: left, right, center"
-                    ],
+                    "desc": ["文本对齐方式。有效值: left, right, center"],
                     "since": "1.6.0"
                   }
                 ]
               },
-              "desc": [
-                "为标记点旁边增加标签"
-              ],
+              "desc": ["为标记点旁边增加标签"],
               "required": false,
               "notice": "支持的属性见下表，可识别换行符。",
               "since": "1.2.0"
@@ -4198,27 +3648,21 @@
               "type": {
                 "name": "Object"
               },
-              "desc": [
-                "经纬度在标注图标的锚点，默认底边中点"
-              ],
+              "desc": ["经纬度在标注图标的锚点，默认底边中点"],
               "required": false,
               "notice": "{x, y}，x表示横向(0-1)，y表示竖向(0-1)。{x: .5, y: 1} 表示底边中点",
               "since": "1.2.0"
             }
           ]
         },
-        "desc": [
-          "标记点"
-        ]
+        "desc": ["标记点"]
       },
       {
         "name": "covers",
         "type": {
           "name": "any[]"
         },
-        "desc": [
-          "**即将移除，请使用 markers**"
-        ]
+        "desc": ["**即将移除，请使用 markers**"]
       },
       {
         "name": "polyline",
@@ -4230,9 +3674,7 @@
               "type": {
                 "name": "any[]"
               },
-              "desc": [
-                "经纬度数组"
-              ],
+              "desc": ["经纬度数组"],
               "required": true,
               "notice": "[{latitude: 0, longitude: 0}]"
             },
@@ -4241,9 +3683,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "线的颜色"
-              ],
+              "desc": ["线的颜色"],
               "required": false,
               "notice": "8位十六进制表示，后两位表示alpha值，如：#000000AA"
             },
@@ -4252,9 +3692,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "线的宽度"
-              ],
+              "desc": ["线的宽度"],
               "required": false
             },
             {
@@ -4262,9 +3700,7 @@
               "type": {
                 "name": "boolean"
               },
-              "desc": [
-                "是否虚线"
-              ],
+              "desc": ["是否虚线"],
               "required": false,
               "notice": "默认false"
             },
@@ -4273,9 +3709,7 @@
               "type": {
                 "name": "boolean"
               },
-              "desc": [
-                "带箭头的线"
-              ],
+              "desc": ["带箭头的线"],
               "required": false,
               "notice": "默认false，开发者工具暂不支持该属性",
               "since": "1.2.0"
@@ -4285,9 +3719,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "更换箭头图标"
-              ],
+              "desc": ["更换箭头图标"],
               "required": false,
               "notice": "在arrowLine为true时生效",
               "since": "1.6.0"
@@ -4297,9 +3729,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "线的边框颜色"
-              ],
+              "desc": ["线的边框颜色"],
               "required": false,
               "since": "1.2.0"
             },
@@ -4308,17 +3738,13 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "线的厚度"
-              ],
+              "desc": ["线的厚度"],
               "required": false,
               "since": "1.2.0"
             }
           ]
         },
-        "desc": [
-          "路线"
-        ]
+        "desc": ["路线"]
       },
       {
         "name": "circles",
@@ -4330,9 +3756,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "纬度"
-              ],
+              "desc": ["纬度"],
               "required": true,
               "notice": "浮点数，范围 -90 ~ 90"
             },
@@ -4341,9 +3765,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "经度"
-              ],
+              "desc": ["经度"],
               "required": true,
               "notice": "浮点数，范围 -180 ~ 180"
             },
@@ -4352,9 +3774,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "描边的颜色"
-              ],
+              "desc": ["描边的颜色"],
               "required": false,
               "notice": "8位十六进制表示，后两位表示alpha值，如：#000000AA"
             },
@@ -4363,9 +3783,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "填充颜色"
-              ],
+              "desc": ["填充颜色"],
               "required": false,
               "notice": "8位十六进制表示，后两位表示alpha值，如：#000000AA"
             },
@@ -4374,9 +3792,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "半径"
-              ],
+              "desc": ["半径"],
               "required": true
             },
             {
@@ -4384,16 +3800,12 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "描边的宽度"
-              ],
+              "desc": ["描边的宽度"],
               "required": false
             }
           ]
         },
-        "desc": [
-          "圆"
-        ]
+        "desc": ["圆"]
       },
       {
         "name": "controls",
@@ -4405,9 +3817,7 @@
               "type": {
                 "name": "number"
               },
-              "desc": [
-                "控件id"
-              ],
+              "desc": ["控件id"],
               "required": false,
               "notice": "在控件点击事件回调会返回此id"
             },
@@ -4421,9 +3831,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "距离地图的左边界多远"
-                    ],
+                    "desc": ["距离地图的左边界多远"],
                     "required": false,
                     "notice": "默认为0"
                   },
@@ -4432,9 +3840,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "距离地图的上边界多远"
-                    ],
+                    "desc": ["距离地图的上边界多远"],
                     "required": false,
                     "notice": "默认为0"
                   },
@@ -4443,9 +3849,7 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "控件宽度"
-                    ],
+                    "desc": ["控件宽度"],
                     "required": false,
                     "notice": "默认为图片宽度"
                   },
@@ -4454,17 +3858,13 @@
                     "type": {
                       "name": "number"
                     },
-                    "desc": [
-                      "控件高度"
-                    ],
+                    "desc": ["控件高度"],
                     "required": false,
                     "notice": "默认为图片高度"
                   }
                 ]
               },
-              "desc": [
-                "控件在地图的位置"
-              ],
+              "desc": ["控件在地图的位置"],
               "required": true,
               "notice": "控件相对地图位置"
             },
@@ -4473,9 +3873,7 @@
               "type": {
                 "name": "string"
               },
-              "desc": [
-                "显示的图标"
-              ],
+              "desc": ["显示的图标"],
               "required": true,
               "notice": "项目目录下的图片路径，支持相对路径写法，以'/'开头则表示相对小程序根目录；也支持临时路径"
             },
@@ -4484,35 +3882,27 @@
               "type": {
                 "name": "boolean"
               },
-              "desc": [
-                "是否可点击"
-              ],
+              "desc": ["是否可点击"],
               "required": false,
               "notice": "默认不可点击"
             }
           ]
         },
-        "desc": [
-          "控件"
-        ]
+        "desc": ["控件"]
       },
       {
         "name": "include-points",
         "type": {
           "name": "any[]"
         },
-        "desc": [
-          "缩放视野以包含所有给定的坐标点"
-        ]
+        "desc": ["缩放视野以包含所有给定的坐标点"]
       },
       {
         "name": "show-location",
         "type": {
           "name": "boolean"
         },
-        "desc": [
-          "显示带有方向的当前定位点"
-        ]
+        "desc": ["显示带有方向的当前定位点"]
       },
       {
         "name": "bindmarkertap",
@@ -4522,9 +3912,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "点击标记点时触发"
-        ]
+        "desc": ["点击标记点时触发"]
       },
       {
         "name": "bindcallouttap",
@@ -4534,9 +3922,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "点击标记点对应的气泡时触发"
-        ],
+        "desc": ["点击标记点对应的气泡时触发"],
         "since": "1.2.0"
       },
       {
@@ -4547,9 +3933,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "点击控件时触发"
-        ]
+        "desc": ["点击控件时触发"]
       },
       {
         "name": "bindregionchange",
@@ -4559,9 +3943,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "视野发生变化时触发"
-        ]
+        "desc": ["视野发生变化时触发"]
       },
       {
         "name": "bindtap",
@@ -4571,9 +3953,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "点击地图时触发"
-        ]
+        "desc": ["点击地图时触发"]
       },
       {
         "name": "bindupdated",
@@ -4583,9 +3963,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "在地图渲染更新完成时触发"
-        ],
+        "desc": ["在地图渲染更新完成时触发"],
         "since": "1.6.0"
       }
     ],
@@ -4595,9 +3973,7 @@
         "link": "https://developers.weixin.qq.com/miniprogram/dev/api/api-map.html"
       }
     ],
-    "notices": [
-      "covers 属性即将移除，请使用 markers 替代"
-    ],
+    "notices": ["covers 属性即将移除，请使用 markers 替代"],
     "tips": [
       "`map` 组件是由客户端创建的原生组件，它的层级是最高的，不能通过 z-index 控制层级。",
       "请勿在 `scroll-view`、`swiper`、`picker-view`、`movable-view` 中使用 `map` 组件。",
@@ -4608,18 +3984,14 @@
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/map.html"
   },
   {
-    "desc": [
-      "画布。"
-    ],
+    "desc": ["画布。"],
     "attrs": [
       {
         "name": "canvas-id",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "canvas 组件的唯一标识符"
-        ]
+        "desc": ["canvas 组件的唯一标识符"]
       },
       {
         "name": "disable-scroll",
@@ -4639,9 +4011,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "手指触摸动作开始"
-        ]
+        "desc": ["手指触摸动作开始"]
       },
       {
         "name": "bindtouchmove",
@@ -4651,9 +4021,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "手指触摸后移动"
-        ]
+        "desc": ["手指触摸后移动"]
       },
       {
         "name": "bindtouchend",
@@ -4663,9 +4031,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "手指触摸动作结束"
-        ]
+        "desc": ["手指触摸动作结束"]
       },
       {
         "name": "bindtouchcancel",
@@ -4675,9 +4041,7 @@
             "name": "any"
           }
         },
-        "desc": [
-          "手指触摸动作被打断，如来电提醒，弹窗"
-        ]
+        "desc": ["手指触摸动作被打断，如来电提醒，弹窗"]
       },
       {
         "name": "bindlongtap",
@@ -4715,16 +4079,12 @@
       "请勿在 `scroll-view`、`swiper`、`picker-view`、`movable-view` 中使用 `canvas` 组件。",
       "`css` 动画对 `canvas` 组件无效。"
     ],
-    "bugs": [
-      "避免设置过大的宽高，在安卓下会有crash的问题"
-    ],
+    "bugs": ["避免设置过大的宽高，在安卓下会有crash的问题"],
     "name": "canvas",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/canvas.html"
   },
   {
-    "desc": [
-      "用于展示微信开放的数据。"
-    ],
+    "desc": ["用于展示微信开放的数据。"],
     "attrs": [
       {
         "enum": [
@@ -4773,18 +4133,14 @@
         "type": {
           "name": "string"
         },
-        "desc": [
-          "开放数据类型"
-        ]
+        "desc": ["开放数据类型"]
       },
       {
         "name": "open-gid",
         "type": {
           "name": "string"
         },
-        "desc": [
-          "当 type=\"groupName\" 时生效, 群id"
-        ]
+        "desc": ["当 type=\"groupName\" 时生效, 群id"]
       },
       {
         "name": "lang",
@@ -4797,9 +4153,7 @@
         "defaultValue": "en"
       }
     ],
-    "tips": [
-      " 只有当前用户在此群内才能拉取到群名称"
-    ],
+    "tips": [" 只有当前用户在此群内才能拉取到群名称"],
     "name": "open-data",
     "docLink": "https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html",
     "since": "1.4.0"
@@ -4843,9 +4197,7 @@
     "since": "1.6.4"
   },
   {
-    "desc": [
-      "用于承载组件使用者提供的wxml结构"
-    ],
+    "desc": ["用于承载组件使用者提供的wxml结构"],
     "attrs": [
       {
         "name": "name",
@@ -4916,3 +4268,4 @@
     "docLink": "https://mp.weixin.qq.com/debug/wxadoc/dev/framework/view/wxml/import.html#include"
   }
 ]
+

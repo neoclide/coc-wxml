@@ -2,9 +2,9 @@ import { ExtensionContext, LanguageClient, ServerOptions, workspace, services, T
 
 export async function activate(context: ExtensionContext): Promise<void> {
   let { subscriptions } = context
-  const config = workspace.getConfiguration().get('wxml', {}) as any
+  const config = workspace.getConfiguration().get<any>('wxml', {}) as any
   if (!config.enable) return
-  const file = context.asAbsolutePath('lib/server/wxmlServerMain.js')
+  const file = context.asAbsolutePath('lib/server.js')
   const selector = ['wxml']
 
   let serverOptions: ServerOptions = {
